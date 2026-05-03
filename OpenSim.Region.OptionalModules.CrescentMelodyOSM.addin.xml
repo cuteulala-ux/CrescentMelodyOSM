@@ -1,0 +1,20 @@
+﻿<Addin id="CrescentMelodyOSM"
+       namespace="OpenSim"
+       version="0.1.0"
+       compatVersion="0.1.0"
+       isroot="false">
+  <Description>Crescent Melody OpenSim module</Description>
+  <Dependencies>
+    <Addin id="::OpenSim" version="0.9.3.0" />
+    <Addin id="::OpenSim.Region.Framework" version="0.9.3.0" />
+  </Dependencies>
+  <Runtime>
+    <Import assembly="OpenSim.Region.OptionalModules.CrescentMelodyOSM.dll" />
+  </Runtime>
+  <Extension path="/OpenSim/RegionModules">
+    <RegionModule type="Winxtropia.OpenSim.Modules.CrescentMelodyOSM" />
+  </Extension>
+  <Extension path="/OpenSim/Startup">
+    <Plugin id="CrescentMelodyOSMStartup" type="Winxtropia.OpenSim.Modules.CrescentMelodyOSMStartupPlugin" />
+  </Extension>
+</Addin>
