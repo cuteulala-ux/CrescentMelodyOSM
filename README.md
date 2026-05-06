@@ -1,6 +1,8 @@
 # CrescentMelodyOSM
 Brings Midi Support To Opensim
 
+DO NOT FOLLOW INSTRUTIONS HERE ITS CONFUCING READ THE Instructions.txt downloaded. 
+
 CrescentMelodyOSM for OpenSim is the result of 17 years of musical passion and hard work to get to were it is now.. As you can
 imagine the work put into it for it to become a freebie! :)
 If you enjoy the software please consider donating to winxtropia@gmail.com On Paypal
